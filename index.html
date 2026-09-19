@@ -71,7 +71,7 @@ margin-top:30px; padding-top:15px; border-top:1px solid var(--border); font-size
     <input
       type="number"
       id="staffInput"
-      value="26"
+      value="28"
       min="1"
       step="1"
       oninput="calc()"
@@ -115,7 +115,7 @@ margin-top:30px; padding-top:15px; border-top:1px solid var(--border); font-size
     <input
       type="number"
       id="roundedInput"
-      value="0"
+      value="22"
       min="0"
       step="1"
       oninput="calc()"
@@ -207,8 +207,8 @@ margin-top:30px; padding-top:15px; border-top:1px solid var(--border); font-size
      document.getElementById("difference") .textContent = fmt(difference); }
   
   function resetData(){ rows.splice( 0, rows.length, ...JSON.parse( JSON.stringify(original) ) );
-  document.getElementById("staffInput") .value = 26; 
-  document.getElementById("roundedInput") .value = 28; 
+  document.getElementById("staffInput") .value = 28; 
+  document.getElementById("roundedInput") .value = 22; 
   
   build(); }
   build(); </script> </body> </html>
